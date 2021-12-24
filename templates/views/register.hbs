@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+{{>headerlinks}}
+<link rel="stylesheet" href="css/loginstyle.css">
+<body>
+  {{>navbar}}
+
+    <form action="/register" method="POST" class="login">
+    <h1>Register-Here</h1>
+
+      <div class="email_btn">
+        <input
+          type="name"
+          id="name"
+          name="name"
+          placeholder="User Name"
+          required
+        />
+      </div>
+      <div class="email_btn">
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Email"
+          required
+        />
+      </div>
+      
+      <div class="email_btn">
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Password"
+          required
+        />
+      </div>
+      <div class="email_btn">
+        <input
+          type="password2"
+          id="password2"
+          name="password2"
+          placeholder="Confirm Password"
+          required
+        />
+      </div>
+      <div class="login_btn" id="reg_btn">
+        {{!-- <button><a class="reg" href="/register">Register</a></button> --}}
+        <input type="submit" value="Register">
+      </div>
+      </form>
+      <div>
+      <a href="/login">Already Registered? Login Here</a>
+      </div>
+
+{{>footer}}
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+.login{
+font-size: 50px;
+flex-direction: column;
+justify-content: center;
+margin: auto;
+}
+
+.email_btn input{
+    width: 40rem;
+    padding: 2rem 2rem 2rem 2rem;
+    background: #1e202b;
+    color: white;
+    outline: none;
+    border: none
+}
+.email_btn input{
+    font-size: 2rem;
+    border-radius: 2rem;
+}
+
+.login_btn input[type="submit"] {
+    border: none;
+    background:#009ad8;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1.6rem;
+    width: 13rem;
+}
+
+button{
+    border: none;
+    background:#009ad8;
+    padding: 2rem 3rem;
+    border-radius: 3rem;
+    color: white;
+    font-size: 1.6rem;
+    width: 13rem;
+    margin: 30px;
+    margin-left: 13rem;
+}
+
+.reg{
+    color: white;
+}
+
+#reg_btn{
+    margin-left: 14rem;
+}
+
+h1{
+    font-size: 5rem;
+    text-align: center;
+    color: #009ad8;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+
