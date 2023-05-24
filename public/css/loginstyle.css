@@ -56,4 +56,10 @@ h1{
     font-weight: bold;
 }
 
-
+.errors{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    font-size: initial;
+}
